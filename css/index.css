@@ -8,7 +8,9 @@ body { background: #f5f9fa; font-family: 'Poppins', sans-serif; }
 .row { max-width: 780px; margin: 0 auto; }
 
 
-
+@media (max-width: 1500px) {
+  .article1 { display: none; }
+}
 
 
 #section { padding: 100px 0px; position: relative; }
